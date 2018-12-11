@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD52231321BF8C2A00B69FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52231221BF8C2A00B69FD3 /* AppDelegate.swift */; };
+		DD52231521BF8C2A00B69FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52231421BF8C2A00B69FD3 /* ViewController.swift */; };
+		DD52231821BF8C2A00B69FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD52231621BF8C2A00B69FD3 /* Main.storyboard */; };
+		DD52231A21BF8C2C00B69FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD52231921BF8C2C00B69FD3 /* Assets.xcassets */; };
+		DD52231D21BF8C2C00B69FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD52231B21BF8C2C00B69FD3 /* LaunchScreen.storyboard */; };
+		DD52232821BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52232721BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift */; };
+		DD52233321BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52233221BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD52232421BF8C2C00B69FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD52230721BF8C2A00B69FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD52230E21BF8C2A00B69FD3;
+			remoteInfo = KYDrawerControllerSample;
+		};
+		DD52232F21BF8C2C00B69FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD52230721BF8C2A00B69FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD52230E21BF8C2A00B69FD3;
+			remoteInfo = KYDrawerControllerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD52230F21BF8C2A00B69FD3 /* KYDrawerControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYDrawerControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD52231221BF8C2A00B69FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD52231421BF8C2A00B69FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD52231721BF8C2A00B69FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD52231921BF8C2C00B69FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD52231C21BF8C2C00B69FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD52231E21BF8C2C00B69FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD52232321BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDrawerControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD52232721BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDrawerControllerSampleTests.swift; sourceTree = "<group>"; };
+		DD52232921BF8C2C00B69FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD52232E21BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDrawerControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD52233221BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDrawerControllerSampleUITests.swift; sourceTree = "<group>"; };
+		DD52233421BF8C2C00B69FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD52230C21BF8C2A00B69FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52232021BF8C2C00B69FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52232B21BF8C2C00B69FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD52230621BF8C2A00B69FD3 = {
+			isa = PBXGroup;
+			children = (
+				DD52231121BF8C2A00B69FD3 /* KYDrawerControllerSample */,
+				DD52232621BF8C2C00B69FD3 /* KYDrawerControllerSampleTests */,
+				DD52233121BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests */,
+				DD52231021BF8C2A00B69FD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD52231021BF8C2A00B69FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD52230F21BF8C2A00B69FD3 /* KYDrawerControllerSample.app */,
+				DD52232321BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.xctest */,
+				DD52232E21BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD52231121BF8C2A00B69FD3 /* KYDrawerControllerSample */ = {
+			isa = PBXGroup;
+			children = (
+				DD52231221BF8C2A00B69FD3 /* AppDelegate.swift */,
+				DD52231421BF8C2A00B69FD3 /* ViewController.swift */,
+				DD52231621BF8C2A00B69FD3 /* Main.storyboard */,
+				DD52231921BF8C2C00B69FD3 /* Assets.xcassets */,
+				DD52231B21BF8C2C00B69FD3 /* LaunchScreen.storyboard */,
+				DD52231E21BF8C2C00B69FD3 /* Info.plist */,
+			);
+			path = KYDrawerControllerSample;
+			sourceTree = "<group>";
+		};
+		DD52232621BF8C2C00B69FD3 /* KYDrawerControllerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD52232721BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift */,
+				DD52232921BF8C2C00B69FD3 /* Info.plist */,
+			);
+			path = KYDrawerControllerSampleTests;
+			sourceTree = "<group>";
+		};
+		DD52233121BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD52233221BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift */,
+				DD52233421BF8C2C00B69FD3 /* Info.plist */,
+			);
+			path = KYDrawerControllerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD52230E21BF8C2A00B69FD3 /* KYDrawerControllerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD52233721BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSample" */;
+			buildPhases = (
+				DD52230B21BF8C2A00B69FD3 /* Sources */,
+				DD52230C21BF8C2A00B69FD3 /* Frameworks */,
+				DD52230D21BF8C2A00B69FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerControllerSample;
+			productName = KYDrawerControllerSample;
+			productReference = DD52230F21BF8C2A00B69FD3 /* KYDrawerControllerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD52232221BF8C2C00B69FD3 /* KYDrawerControllerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD52233A21BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSampleTests" */;
+			buildPhases = (
+				DD52231F21BF8C2C00B69FD3 /* Sources */,
+				DD52232021BF8C2C00B69FD3 /* Frameworks */,
+				DD52232121BF8C2C00B69FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD52232521BF8C2C00B69FD3 /* PBXTargetDependency */,
+			);
+			name = KYDrawerControllerSampleTests;
+			productName = KYDrawerControllerSampleTests;
+			productReference = DD52232321BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD52232D21BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD52233D21BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSampleUITests" */;
+			buildPhases = (
+				DD52232A21BF8C2C00B69FD3 /* Sources */,
+				DD52232B21BF8C2C00B69FD3 /* Frameworks */,
+				DD52232C21BF8C2C00B69FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD52233021BF8C2C00B69FD3 /* PBXTargetDependency */,
+			);
+			name = KYDrawerControllerSampleUITests;
+			productName = KYDrawerControllerSampleUITests;
+			productReference = DD52232E21BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD52230721BF8C2A00B69FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AndroidRagger;
+				TargetAttributes = {
+					DD52230E21BF8C2A00B69FD3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DD52232221BF8C2C00B69FD3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD52230E21BF8C2A00B69FD3;
+					};
+					DD52232D21BF8C2C00B69FD3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD52230E21BF8C2A00B69FD3;
+					};
+				};
+			};
+			buildConfigurationList = DD52230A21BF8C2A00B69FD3 /* Build configuration list for PBXProject "KYDrawerControllerSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD52230621BF8C2A00B69FD3;
+			productRefGroup = DD52231021BF8C2A00B69FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD52230E21BF8C2A00B69FD3 /* KYDrawerControllerSample */,
+				DD52232221BF8C2C00B69FD3 /* KYDrawerControllerSampleTests */,
+				DD52232D21BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD52230D21BF8C2A00B69FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD52231D21BF8C2C00B69FD3 /* LaunchScreen.storyboard in Resources */,
+				DD52231A21BF8C2C00B69FD3 /* Assets.xcassets in Resources */,
+				DD52231821BF8C2A00B69FD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52232121BF8C2C00B69FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52232C21BF8C2C00B69FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD52230B21BF8C2A00B69FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD52231521BF8C2A00B69FD3 /* ViewController.swift in Sources */,
+				DD52231321BF8C2A00B69FD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52231F21BF8C2C00B69FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD52232821BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52232A21BF8C2C00B69FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD52233321BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD52232521BF8C2C00B69FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD52230E21BF8C2A00B69FD3 /* KYDrawerControllerSample */;
+			targetProxy = DD52232421BF8C2C00B69FD3 /* PBXContainerItemProxy */;
+		};
+		DD52233021BF8C2C00B69FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD52230E21BF8C2A00B69FD3 /* KYDrawerControllerSample */;
+			targetProxy = DD52232F21BF8C2C00B69FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD52231621BF8C2A00B69FD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD52231721BF8C2A00B69FD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD52231B21BF8C2C00B69FD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD52231C21BF8C2C00B69FD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD52233521BF8C2C00B69FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD52233621BF8C2C00B69FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD52233821BF8C2C00B69FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDrawerControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidragger.KYDrawerControllerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD52233921BF8C2C00B69FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDrawerControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidragger.KYDrawerControllerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD52233B21BF8C2C00B69FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDrawerControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidragger.KYDrawerControllerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDrawerControllerSample.app/KYDrawerControllerSample";
+			};
+			name = Debug;
+		};
+		DD52233C21BF8C2C00B69FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDrawerControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidragger.KYDrawerControllerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDrawerControllerSample.app/KYDrawerControllerSample";
+			};
+			name = Release;
+		};
+		DD52233E21BF8C2C00B69FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDrawerControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidragger.KYDrawerControllerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYDrawerControllerSample;
+			};
+			name = Debug;
+		};
+		DD52233F21BF8C2C00B69FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDrawerControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidragger.KYDrawerControllerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYDrawerControllerSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD52230A21BF8C2A00B69FD3 /* Build configuration list for PBXProject "KYDrawerControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52233521BF8C2C00B69FD3 /* Debug */,
+				DD52233621BF8C2C00B69FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD52233721BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52233821BF8C2C00B69FD3 /* Debug */,
+				DD52233921BF8C2C00B69FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD52233A21BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52233B21BF8C2C00B69FD3 /* Debug */,
+				DD52233C21BF8C2C00B69FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD52233D21BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52233E21BF8C2C00B69FD3 /* Debug */,
+				DD52233F21BF8C2C00B69FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD52230721BF8C2A00B69FD3 /* Project object */;
+}
