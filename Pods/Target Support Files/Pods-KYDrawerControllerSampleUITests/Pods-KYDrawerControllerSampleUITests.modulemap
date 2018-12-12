@@ -1,0 +1,6 @@
+framework module Pods_KYDrawerControllerSampleUITests {
+  umbrella header "Pods-KYDrawerControllerSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

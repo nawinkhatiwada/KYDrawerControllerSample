@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206FD306344FA48B05BF250A /* Pods_KYDrawerControllerSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC40EDD5FAABBE74844E5302 /* Pods_KYDrawerControllerSampleUITests.framework */; };
+		2F31F3EEAF884EF0804CED28 /* Pods_KYDrawerControllerSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8F039C2A884D6737685432 /* Pods_KYDrawerControllerSample.framework */; };
+		B594AB8DB6BBF7C8DE62FF07 /* Pods_KYDrawerControllerSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947BC6D3E65BA7B5688FCF7D /* Pods_KYDrawerControllerSampleTests.framework */; };
 		DD52231321BF8C2A00B69FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52231221BF8C2A00B69FD3 /* AppDelegate.swift */; };
 		DD52231521BF8C2A00B69FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52231421BF8C2A00B69FD3 /* ViewController.swift */; };
 		DD52231821BF8C2A00B69FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD52231621BF8C2A00B69FD3 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		DD52231D21BF8C2C00B69FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD52231B21BF8C2C00B69FD3 /* LaunchScreen.storyboard */; };
 		DD52232821BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52232721BF8C2C00B69FD3 /* KYDrawerControllerSampleTests.swift */; };
 		DD52233321BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52233221BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift */; };
+		DD52234121BF8D6B00B69FD3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52234021BF8D6B00B69FD3 /* ViewController2.swift */; };
+		DD52234321BF8D7F00B69FD3 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52234221BF8D7F00B69FD3 /* ViewController3.swift */; };
+		DD52234521BF8E5A00B69FD3 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52234421BF8E5A00B69FD3 /* DrawerViewController.swift */; };
+		DD52234721BFCA6C00B69FD3 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52234621BFCA6C00B69FD3 /* InitialViewController.swift */; };
+		DD52234921BFD92900B69FD3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52234821BFD92900B69FD3 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109BBF964996BC9EE19F5235 /* Pods-KYDrawerControllerSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDrawerControllerSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYDrawerControllerSampleUITests/Pods-KYDrawerControllerSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		466735047946598BBD99ECD1 /* Pods-KYDrawerControllerSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDrawerControllerSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYDrawerControllerSampleTests/Pods-KYDrawerControllerSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F904006160308021A5F13B0 /* Pods-KYDrawerControllerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDrawerControllerSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYDrawerControllerSample/Pods-KYDrawerControllerSample.debug.xcconfig"; sourceTree = "<group>"; };
+		947BC6D3E65BA7B5688FCF7D /* Pods_KYDrawerControllerSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYDrawerControllerSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8F039C2A884D6737685432 /* Pods_KYDrawerControllerSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYDrawerControllerSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E2CD5D064B289EB307BD9D /* Pods-KYDrawerControllerSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDrawerControllerSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYDrawerControllerSampleUITests/Pods-KYDrawerControllerSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB7EA815641F0441DDE3C9F0 /* Pods-KYDrawerControllerSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDrawerControllerSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYDrawerControllerSampleTests/Pods-KYDrawerControllerSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC40EDD5FAABBE74844E5302 /* Pods_KYDrawerControllerSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYDrawerControllerSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB21C2BA35311EC48704A5E /* Pods-KYDrawerControllerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDrawerControllerSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYDrawerControllerSample/Pods-KYDrawerControllerSample.release.xcconfig"; sourceTree = "<group>"; };
 		DD52230F21BF8C2A00B69FD3 /* KYDrawerControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYDrawerControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD52231221BF8C2A00B69FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD52231421BF8C2A00B69FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,11 @@
 		DD52232E21BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDrawerControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD52233221BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDrawerControllerSampleUITests.swift; sourceTree = "<group>"; };
 		DD52233421BF8C2C00B69FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD52234021BF8D6B00B69FD3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		DD52234221BF8D7F00B69FD3 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		DD52234421BF8E5A00B69FD3 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		DD52234621BFCA6C00B69FD3 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		DD52234821BFD92900B69FD3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F31F3EEAF884EF0804CED28 /* Pods_KYDrawerControllerSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B594AB8DB6BBF7C8DE62FF07 /* Pods_KYDrawerControllerSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206FD306344FA48B05BF250A /* Pods_KYDrawerControllerSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39AB67BCF5D2F86C1CEDD603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8F039C2A884D6737685432 /* Pods_KYDrawerControllerSample.framework */,
+				947BC6D3E65BA7B5688FCF7D /* Pods_KYDrawerControllerSampleTests.framework */,
+				CC40EDD5FAABBE74844E5302 /* Pods_KYDrawerControllerSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4226D0F86A606EEFD68FF231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F904006160308021A5F13B0 /* Pods-KYDrawerControllerSample.debug.xcconfig */,
+				DCB21C2BA35311EC48704A5E /* Pods-KYDrawerControllerSample.release.xcconfig */,
+				BB7EA815641F0441DDE3C9F0 /* Pods-KYDrawerControllerSampleTests.debug.xcconfig */,
+				466735047946598BBD99ECD1 /* Pods-KYDrawerControllerSampleTests.release.xcconfig */,
+				A0E2CD5D064B289EB307BD9D /* Pods-KYDrawerControllerSampleUITests.debug.xcconfig */,
+				109BBF964996BC9EE19F5235 /* Pods-KYDrawerControllerSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD52230621BF8C2A00B69FD3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				DD52232621BF8C2C00B69FD3 /* KYDrawerControllerSampleTests */,
 				DD52233121BF8C2C00B69FD3 /* KYDrawerControllerSampleUITests */,
 				DD52231021BF8C2A00B69FD3 /* Products */,
+				4226D0F86A606EEFD68FF231 /* Pods */,
+				39AB67BCF5D2F86C1CEDD603 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +153,11 @@
 				DD52231921BF8C2C00B69FD3 /* Assets.xcassets */,
 				DD52231B21BF8C2C00B69FD3 /* LaunchScreen.storyboard */,
 				DD52231E21BF8C2C00B69FD3 /* Info.plist */,
+				DD52234021BF8D6B00B69FD3 /* ViewController2.swift */,
+				DD52234221BF8D7F00B69FD3 /* ViewController3.swift */,
+				DD52234421BF8E5A00B69FD3 /* DrawerViewController.swift */,
+				DD52234621BFCA6C00B69FD3 /* InitialViewController.swift */,
+				DD52234821BFD92900B69FD3 /* Utils.swift */,
 			);
 			path = KYDrawerControllerSample;
 			sourceTree = "<group>";
@@ -132,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD52233721BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSample" */;
 			buildPhases = (
+				D5C6B9992A3124D9BEBB9FD6 /* [CP] Check Pods Manifest.lock */,
 				DD52230B21BF8C2A00B69FD3 /* Sources */,
 				DD52230C21BF8C2A00B69FD3 /* Frameworks */,
 				DD52230D21BF8C2A00B69FD3 /* Resources */,
+				0E2AA83333838DFAFCB2EC31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD52233A21BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSampleTests" */;
 			buildPhases = (
+				8FFBC06E89994F9A8500280E /* [CP] Check Pods Manifest.lock */,
 				DD52231F21BF8C2C00B69FD3 /* Sources */,
 				DD52232021BF8C2C00B69FD3 /* Frameworks */,
 				DD52232121BF8C2C00B69FD3 /* Resources */,
@@ -167,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD52233D21BF8C2C00B69FD3 /* Build configuration list for PBXNativeTarget "KYDrawerControllerSampleUITests" */;
 			buildPhases = (
+				D09D044813628B24F4AF3180 /* [CP] Check Pods Manifest.lock */,
 				DD52232A21BF8C2C00B69FD3 /* Sources */,
 				DD52232B21BF8C2C00B69FD3 /* Frameworks */,
 				DD52232C21BF8C2C00B69FD3 /* Resources */,
@@ -251,13 +310,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E2AA83333838DFAFCB2EC31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KYDrawerControllerSample/Pods-KYDrawerControllerSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYDrawerControllerSample/Pods-KYDrawerControllerSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFBC06E89994F9A8500280E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYDrawerControllerSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09D044813628B24F4AF3180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYDrawerControllerSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C6B9992A3124D9BEBB9FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYDrawerControllerSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD52230B21BF8C2A00B69FD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD52231521BF8C2A00B69FD3 /* ViewController.swift in Sources */,
+				DD52234521BF8E5A00B69FD3 /* DrawerViewController.swift in Sources */,
 				DD52231321BF8C2A00B69FD3 /* AppDelegate.swift in Sources */,
+				DD52234921BFD92900B69FD3 /* Utils.swift in Sources */,
+				DD52234721BFCA6C00B69FD3 /* InitialViewController.swift in Sources */,
+				DD52234321BF8D7F00B69FD3 /* ViewController3.swift in Sources */,
+				DD52234121BF8D6B00B69FD3 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +585,7 @@
 		};
 		DD52233821BF8C2C00B69FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F904006160308021A5F13B0 /* Pods-KYDrawerControllerSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +603,7 @@
 		};
 		DD52233921BF8C2C00B69FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB21C2BA35311EC48704A5E /* Pods-KYDrawerControllerSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +621,7 @@
 		};
 		DD52233B21BF8C2C00B69FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7EA815641F0441DDE3C9F0 /* Pods-KYDrawerControllerSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +642,7 @@
 		};
 		DD52233C21BF8C2C00B69FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466735047946598BBD99ECD1 /* Pods-KYDrawerControllerSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +663,7 @@
 		};
 		DD52233E21BF8C2C00B69FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E2CD5D064B289EB307BD9D /* Pods-KYDrawerControllerSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +683,7 @@
 		};
 		DD52233F21BF8C2C00B69FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109BBF964996BC9EE19F5235 /* Pods-KYDrawerControllerSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
