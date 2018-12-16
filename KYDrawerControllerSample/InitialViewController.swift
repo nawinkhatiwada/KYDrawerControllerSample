@@ -27,6 +27,7 @@ class InitialViewController: UIViewController {
         appDel.window?.rootViewController = appDel.drawerController // Change rootView Controller to Drawer Controller to show to the user
         appDel.window?.makeKeyAndVisible() //This is a convenience method to show the current window and position it in front of all other windows at the same level or lower. If you only want to show the window, change its isHidden property to false.
         appDel.drawerController.screenEdgePanGestureEnabled = false
+        appDel.drawerController.drawerWidth = self.view.bounds.size.width * 0.75
     }
     
 
