@@ -13,7 +13,7 @@ class DrawerViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var nabHeader: UIView!
-    let arrayTitles = ["Sujin Bhaiya", "Krishna Bhaiya", "Subrat Bhaiya"]
+    let arrayTitles = ["View Controller 1", "View Controller 2", "View Controller 3"]
     var icons : [UIImage] = [UIImage(named: "ic_home.png")!, UIImage(named: "ic_home.png")!, UIImage(named: "ic_home.png")!]
     let appDel = UIApplication.shared.delegate as! AppDelegate
     
